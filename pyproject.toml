@@ -1,6 +1,6 @@
 [project]
 name = "hi_hun0219"
-version = "0.2.3"
+version = "0.7.4"
 description = "Default template for PDM package"
 authors = [
     {name = "hun0219", email = "gsw98000@gmail.com"},
@@ -10,6 +10,8 @@ requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+hi-hun0219 = "hi_hun0219.hello:hi"
 
 [tool.pdm]
 #distribution = false
